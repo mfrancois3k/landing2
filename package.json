@@ -1,0 +1,21 @@
+{
+  "name": "landing2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint \"./**/*.scss\"",
+    "lint:fix": "stylelint \"./**/*.scss\" --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "node-sass": "^8.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}
